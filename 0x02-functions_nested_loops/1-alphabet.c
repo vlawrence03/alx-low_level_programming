@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
+ * main - check the code
  *
- * Return: Always 0 (Succes)
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
