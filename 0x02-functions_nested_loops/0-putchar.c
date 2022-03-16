@@ -1,20 +1,17 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * main - Entry point
- *
+ * Description: It prints the word _putchar, followed by a new line.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+	car word[8] = "_putchar";
+	int i;
 	
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	for (i=0; i<8; i++)
+		_putchar(word[i]);
 	_putchar('\n');
 	
 
